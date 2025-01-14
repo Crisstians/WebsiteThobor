@@ -29,21 +29,6 @@ const AboutRobot = () => {
                 className="canvas-istorie "
                 ></Spline>
             </section>
-
-            {/* Lift Section */}
-            <section id="despre" style={{ flexDirection: 'row' }}>
-                <div id="despreContent">
-                    <h1 className="shadowText despreTitlu" style={{ textAlign: 'center', marginRight: '0' }}>
-                        Lift
-                    </h1>
-                    <div className="despreBox" style={{ marginBottom: '4vh' }}>
-                        <p id="despreText">
-                        Sistemul de lift include 2 glisiere acționate de motoare de 435RPM. Folosește un sistem de ață continuu și un arc de retracție de 8kg pentru ridicare eficientă. Un P Controller asigură menținerea poziției fără consum suplimentar de energie.
-                        </p>
-                    </div>
-                </div>
-
-            </section>
             {/* Intake Section */}
             <section id="despre" style={{ flexDirection: 'row' }}>
                 <div id="despreContent">
