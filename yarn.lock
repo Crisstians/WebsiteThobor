@@ -2325,7 +2325,7 @@
 
 "@splinetool/react-spline@^4.0.0":
   version "4.0.0"
-  resolved "https://registry.npmjs.org/@splinetool/react-spline/-/react-spline-4.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/@splinetool/react-spline/-/react-spline-4.0.0.tgz#bf510c12c187738ba91c13ca9b03f90babb5708f"
   integrity sha512-FqrV7/K2q998Y0t83QUauQxsifKWAg9CFZoSb64qRuH7IfHkDs5/OgU1ACkg0aTgsEPtFlH+kATQ+8X6MrizHQ==
   dependencies:
     blurhash "2.0.5"
