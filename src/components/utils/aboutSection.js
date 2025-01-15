@@ -8,7 +8,7 @@ import { CSSPlugin } from 'gsap/CSSPlugin';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 import { Application } from '@splinetool/runtime';
-import Spline from '@splinetool/react-spline';
+
 
 import greenLight from '../../images/greenLight.png';
 import star1 from '../../images/star1.png';
@@ -157,18 +157,9 @@ const AboutSection = () => {
                     </div>
                 </div>
                 {/*<canvas ref={canvasRef} id="canvasIstorie" data-engine="three.js r149"></canvas>*/}
-                <Spline 
-                scene="https://prod.spline.design/jsF2bgeBbOMYPiYi/scene.splinecode"
-                className="canvas-istorie "
-                >
-                   
 
-                </Spline>
             </section>
-            <Spline 
-                scene="https://prod.spline.design/jsF2bgeBbOMYPiYi/scene.splinecode"
-                className="canvas-istorieMobile"
-            ></Spline>
+
                    
 
             {/* Why THOBOR Section */}
