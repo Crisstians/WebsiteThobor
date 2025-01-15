@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState, useMemo } from 'react';
+import Spline from '@splinetool/react-spline';
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import Firestore from "./components/utils/Firestore";
 import Navbar from './components/utils/navbarNew';
