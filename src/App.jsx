@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState, useMemo } from 'react';
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import Firestore from "./components/utils/Firestore";
 import Navbar from './components/utils/navbarNew';
 import Footer from './components/utils/Footer';
 import Home from './components/home/Home';
@@ -14,6 +15,8 @@ import NotFound from './components/notfound/NotFound';
 import Up from "./components/utils/Up.jsx";
 import BuyUsACoffee from "./components/utils/BuyUsACoffee.jsx";
 import { AnimatePresence } from "framer-motion";
+
+const firestore = new Firestore();
 
 function App() {
   return (
